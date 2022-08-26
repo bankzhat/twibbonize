@@ -15,6 +15,37 @@
     <link integrity="" rel="stylesheet" href="/css/button.css">
     <link integrity="" rel="stylesheet" href="/css/modals.css">
 
+    <style>
+    img,canvas{
+    width:100%;
+    height:auto;
+    }
+
+    .input-file{
+    background-color: #f8f9fc;
+    border: 1px solid #e2e9f3;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    color: #565A90;
+    }
+    .input-file::file-selector-button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #595ef1bd;
+    border: 1px solid #595ef1bd;
+    height: 40px;
+    cursor: pointer;
+    transition: all .25s ease-in;
+    cursor: pointer;
+    }
+    .input-file::file-selector-button:hover{
+    background-color: #fff;
+    color: #565A90;
+    transition: all .25s ease-in;
+    }
+    </style>
     {{content-for "head-footer"}}
   </head>
   <body>
