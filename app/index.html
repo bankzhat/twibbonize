@@ -17,6 +17,7 @@
 
     <link integrity="" rel="stylesheet" href="/css/button.css">
     <link integrity="" rel="stylesheet" href="/css/modals.css">
+    <link integrity="" rel="stylesheet" href="/css/translate.css">
 
     <style>
     img,canvas{
@@ -61,6 +62,13 @@
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/hello-world.js"></script>
 
+    <script type="text/javascript"> 
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'id'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     {{content-for "body-footer"}}
   </body>
 </html>
