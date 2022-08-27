@@ -1,4 +1,4 @@
-![Ember Logo](https://github.com/vercel/vercel/blob/main/packages/frameworks/logos/ember.svg)
+![Twibbon Generator](public/img/og.png)
 
 # Twibbon Generator v.02
 
