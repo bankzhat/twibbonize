@@ -1,4 +1,4 @@
-![Twibbon Generator](/public/img/og.png)
+![Twibbon Generator](/public/og.png)
 
 # Twibbon Generator v.02
 
